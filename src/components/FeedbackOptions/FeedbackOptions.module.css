@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+}
+
+.button {
+  all: unset;
+  font-weight: bold;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 3px;
+  padding: 3px 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:active {
+  background-color: teal;
+  border-color: teal;
+}
